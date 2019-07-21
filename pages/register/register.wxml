@@ -1,0 +1,19 @@
+<!-- 注册 -->
+<view class="container">
+  <text class='login-register-title'>注册</text>
+  <!-- 注册表单 -->
+  <view class='login-form'>
+    <l-input label="用户名" placeholder="请输入用户名" value='{{studentId}}' bind:linchange='editStudentId' />
+    <l-input label="密码" placeholder="请输入密码" value='{{password}}' bind:linchange='editPassword' />
+  </view>
+  <!-- 表单按钮 -->
+  <view class='login-form-button'>
+    <l-button l-class='btn-login-reset' size="long" bindtap='register'>注册</l-button>
+    <l-button l-class='btn-login-reset' size="long" plain="{{true}}" bindtap="reset">重置</l-button>
+    <l-button l-class='btn-login-reset' size="long" type="warning" bindtap="goLogin">前往登录</l-button>
+  </view>
+  <!-- 注册成功提示 -->
+  <l-toast show="{{registerSuccess}}" icon="success" icon-style="size:60; color:#34bfa3" title="注册成功" />
+  <!-- 空提示 -->
+  <l-toast show="{{nullTip}}" title="用户名或密码为空" />
+</view>

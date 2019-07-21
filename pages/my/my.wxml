@@ -1,0 +1,10 @@
+<view class='my-container'>
+  <!-- 简单用户信息（用户头像+用户昵称） -->
+  <l-avatar open-data="{{userSimpleInfo}}" />
+  <!-- 列表 -->
+  <l-list title="个人信息" icon="user" url="/pages/my/my-info/my-info" />
+  <l-list title="修改密码" icon="password" url="/pages/my/alter-password/alter-password" />
+  <l-list title="关于" icon="help" url="/pages/my/about/about" />
+  <!-- 底部导航栏 -->
+  <!-- <l-tabbar show="{{true}}" list="{{tabBar}}" /> -->
+</view>

@@ -1,0 +1,16 @@
+<view>
+  <l-card type="primary" plaintext="{{true}}" wx:for="{{myBookData}}" l-class="blue-card">
+    <view class="content" >
+      <text class='book-name'>{{item.bookName}}</text>
+      <l-radio-group current="{{item.bookType}}" bind:linchange="changeBookType" data-index="{{index}}" l-class="radio-group">
+        <l-radio value="正版书" l-class='radio-item'/>
+        <l-radio value="二手书" l-class='radio-item'/>
+        <l-radio value="复印书" l-class='radio-item'/>
+      </l-radio-group>
+    </view>
+  </l-card>
+  <view class='btn-container'>
+    <l-button size="long" l-class="btn" bindtap='submit'>提交</l-button>
+    <l-button size="long" l-class="btn" plain="{{true}}">重置</l-button>
+  </view>
+</view>

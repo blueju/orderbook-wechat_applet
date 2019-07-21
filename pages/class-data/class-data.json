@@ -1,0 +1,27 @@
+{
+  "usingComponents": {},
+  "tabBar": [
+    {
+      "pagePath": "/pages/class-data/class-data",
+      "text": "全班",
+      "iconSize": 40,
+      "iconPath": "/img/my.png",
+      "selectedIconPath": "/img/my-selected.png"
+    },
+    {
+      "pagePath": "/pages/add-or-alter/add-or-alter",
+      "text": "订书/修改",
+      "iconSize": 40,
+      "iconPath": "/img/add-or-alter.png",
+      "selectedIconPath": "/img/add-or-alter-selected.png",
+      "style": "circle"
+    },
+    {
+      "pagePath": "/pages/my/my",
+      "text": "我的",
+      "iconSize": 40,
+      "iconPath": "/img/my.png",
+      "selectedIconPath": "/img/my-selected.png"
+    }
+  ]
+}

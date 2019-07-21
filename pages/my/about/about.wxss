@@ -1,0 +1,8 @@
+.about-container{
+  display: block;
+  margin:15rpx;
+}
+
+text{
+  display: block
+}

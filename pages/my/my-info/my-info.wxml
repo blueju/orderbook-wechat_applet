@@ -1,0 +1,2 @@
+<l-input label="学号" value="{{studentId}}" />
+<l-input label="姓名" value="{{studentName}}" />

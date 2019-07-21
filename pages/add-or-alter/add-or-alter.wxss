@@ -1,0 +1,33 @@
+/* 控制卡片间距 */
+
+.blue-card {
+  margin-top: 15px !important;
+}
+
+/* 提交和重置按钮容器 */
+
+.btn-container {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10rpx;
+}
+
+/* 控制提交和重置按钮的间距 */
+
+.btn {
+  margin-top: 15rpx !important;
+}
+
+.content {
+  margin-top: 10rpx;
+}
+
+.radio-group {
+  margin-top: 7rpx;
+}
+
+.radio-item {
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+}

@@ -1,0 +1,19 @@
+<view class='class-data-container'>
+  <l-card type="avatar" l-class="card" wx:for="{{classBookData}}" image="/img/饼干.png" title="{{item.studentId}}" describe="{{item.studentName}}">
+    <!-- content start -->
+
+    <view class="each-student-bookdata">
+      <!-- 订书信息 -->
+      <l-input disabled="{{true}}" label-width="400" wx:for="{{item.bookData}}" label="{{index}}" placeholder="{{item}}" />
+      <!-- 其他信息 -->
+      <l-input disabled="{{true}}" label-width="300" label-layout="right" label="订书总量" placeholder="{{item.otherData.bookTotalNumber}}" />
+      <l-input disabled="{{true}}" label-width="300" label-layout="right" label="订书总价" placeholder="{{item.otherData.bookTotalPrice}}" />
+      <l-input disabled="{{true}}" label-width="300" label-layout="right" label="支付状态" placeholder="{{item.otherData.payStatus}}" />
+    </view>
+
+    <!-- content end -->
+  </l-card>
+
+  <!-- 底部导航栏 -->
+  <!-- <l-tabbar show="{{true}}" list="{{tabBar}}" bind:lintap="go"/> -->
+</view>

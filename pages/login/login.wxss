@@ -1,0 +1,16 @@
+/* 登录表单 */
+.login-form {
+  margin-bottom: 50rpx;
+}
+
+/* 登录和重置按钮的容器 */
+
+.login-form-button {
+  width: 90%;
+}
+
+/* 登录和重置按钮 */
+
+.btn-login-reset {
+  margin-bottom: 10rpx !important;
+}

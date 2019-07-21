@@ -1,0 +1,6 @@
+# npm
+/node_modules
+# lin ui
+/miniprogram_npm
+# iview-weapp
+/dist
